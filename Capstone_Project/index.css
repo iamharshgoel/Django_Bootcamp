@@ -1,0 +1,34 @@
+body{
+  background-color: #011627;
+  border: 60px solid #2EC4B6;
+  font-family: 'Montserrat';
+  text-align: center;
+  color: #FDFFFC;
+  border-top: 0px;
+}
+
+.userinput{
+  margin-bottom: 10px;
+  font-size: 1.5em;
+}
+
+p {
+    color: #FDFFFC;
+    padding-top: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+h2{
+  margin-bottom: 5%;
+}
+
+#sub{
+  border-radius: 25px;
+    background: #FF9F1C;
+    height: 80px;
+    width: 150px;
+    font-family: "Montserrat";
+    font-size: 1.2em;
+    margin-bottom: 4px;
+}
