@@ -1,0 +1,2 @@
+This is a basic Connect Four game which takes input of 2 players and that player wins which will have 4 circles of same color in any direction vertically, horizontally or diagonally.
+HTML, CSS, JavaScript are used with jQuery and Document Object Model.
