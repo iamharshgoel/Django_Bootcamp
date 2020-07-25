@@ -241,3 +241,96 @@ To make round buttons in CSS make border-radius: 50%;
 **Back-End**
 ###########################################
 
+**Python**
+
+# Strings in Python:-
+-> Strings in Python are used to hold text information and are indicated with the use of single or double quotes.
+
+-> They are a sequence of characters, meaning they can be indexed using bracket notation.
+
+string.upper() converts the whole string to Uppercase.
+string.capitalize() converts the first letter capital in the string.
+string.split() converts the multi word string string into list of words.
+
+
+# Lists in Python:-
+-> Lists are the arrays form of Python
+-> Lists are mutable in nature.
+
+list.append(["a","b"]) will append list in a list 
+list.extend(["a","b"]) will extend the list further after.
+
+list.pop() is used to remove the item from list and it always returns the removed item.
+
+list.reverse() is used to reverse the order of list.
+list.sort() the list in ascending order.
+
+# Dictionaries in Python:-
+-> Dictionaries are Python's version of Hash Tables
+-> They allow us to create a "mapping" with key-value pairs.
+-> They don't retain any order.
+
+# Some Key Points:-
+-> Tuples are immutable sequences.
+-> Sets are unordered collections of unique elements.
+-> Booleans are just True and False.
+
+-> Functions in Python use def keyword.
+
+def function(){
+    """
+    THis THE DOCSTRING
+    """
+    }
+
+Python Scope follows the LEGB rule:-
+-> Local
+-> Enclosing Function Locals
+-> Global
+-> Built-in
+
+
+* L: Local -- Names assigned in any way within a function (def or lambda), and not declared global in that function.
+
+* E: (EFLs) -- Name in the locsl scope of any and all enclosing functions (def or lambda), from inner to outer.
+
+* G: Global (module) -- Names assigned t the top-level of a module file, or declared global in a def within th file.
+Effect of global keyword in the function is permanent.
+return keyword also somewhat have same effect as global keyword.
+
+
+* B: Built-in (Python) -- Names preassigned in the built-in names module:
+                          ope, range, SyntaxError,...
+
+
+# Object Oriented Programming
+
+* Object Oriented Programming is a way to use Python to create our own objects.
+* Methods are functions defined inside the body of a class they're used to perform operations.
+* **Inheritance** is a way to form new classes using older classes that have already been defined that way.
+* The newly formed classes are called derived classes and the classes that we derive from are called the base classes.
+
+def __str__(self) is the method used for string representation.
+def __len__(self) is the method used for length. 
+def __del__(self) is the method used for deletion.
+
+# Errors and Exceptions
+* One way to open the file is by using open() function, it consists of two parameters, the first parameter contains the file name and the second parameter in the open() function dictates whether you are opening the file for just reading, just writing, or to do both.
+
+* Errors detected during execution of the file are called exceptions.
+* Use these keywords from getting errors:
+-> try
+-> except
+-> Finally
+
+try, except actually helps you do is handle errors and then continue on with your code.
+finally key block of code will always be run regardless if there's an exception in the try code block.
+
+# Regex
+Regular Expressions allow us to search for patterns in Python strings.
+http://regexcheatsheet.com/
+
+-> * means 0 or more
+-> ? means 0 and 1 time
+-> + means 1 or more
+-> ^ is used for exclusion
