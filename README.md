@@ -12,27 +12,27 @@ Best referring websites fot Front-End are:-
 #################
 Hyper Text Markup Language
 
-There are two ways to make the text bold <b> or <strong> tag.
-There are two ways to make the text italics <i> or <em> emphasis tag.
+There are two ways to make the text bold b or strong tag.
+There are two ways to make the text italics i or em emphasis tag.
 
 => How to make lists in HTML?
-1. An unordered list starts with the <ul> tag. Each list item starts with the <li> tag.
-2. An ordered list starts with the <ol> tag. Each list item starts with the <li> tag.
-3. The <dl> tag defines the description list, the <dt> tag defines the term (name), and the <dd> tag describes each term
+1. An unordered list starts with the ul tag. Each list item starts with the li tag.
+2. An ordered list starts with the ol tag. Each list item starts with the li tag.
+3. The dl tag defines the description list, the dt tag defines the term (name), and the dd tag describes each term
 
-=> Difference between <div> and <span> tag?
-The difference between <span> and <div> is that a <span> element is in-line and usually used for a small chunk of HTML inside a line (such as inside a paragraph) whereas a <div> (division) element is block-line (which is basically equivalent to having a line-break before and after it) and used to group larger chunks of code.
+=> Difference between div and span tag?
+The difference between span and div is that a span element is in-line and usually used for a small chunk of HTML inside a line (such as inside a paragraph) whereas a div (division) element is block-line (which is basically equivalent to having a line-break before and after it) and used to group larger chunks of code.
 
-The <table> tag defines an HTML table.
+The table tag defines an HTML table.
 
-Each table row is defined with a <tr> tag. Each table header is defined with a <th> tag. Each table data/cell is defined with a <td> tag.
+Each table row is defined with a tr tag. Each table header is defined with a th tag. Each table data/cell is defined with a td tag.
 
-By default, the text in <th> elements are bold and centered.
+By default, the text in th elements are bold and centered.
 
-By default, the text in <td> elements are regular and left-aligned.
+By default, the text in td elements are regular and left-aligned.
 
 
-Forms are created using <form> tag which contains <input>,<label>,<select>, <option> tags inside for different information.
+Forms are created using form tag which contains input,label,select,option tags inside for different information.
 For more on forms and HTML check out:- w3schools.com
 
 ####################################
@@ -42,7 +42,7 @@ Cascading Style Sheet
 
 https://www.w3schools.com/css/css_intro.asp
 
-css file is linked with html page via <link> tag.
+css file is linked with html page via link tag.
 
 selected tag{
         property: value;
